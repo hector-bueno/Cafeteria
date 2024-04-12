@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Caffeteria Plus</title>
 </head>
 <body>
@@ -15,8 +15,10 @@
         </header>
         <hr>
         <div id="coffees">
-            <h2>Coffee</h2>
-            <img src="imgs/icon_coffee_cup.png" alt="icone_cafe">
+            <div class="flexme">
+                <h2>Coffee</h2>
+                <img src="./imgs/icon_coffee_cup.png" alt="icone_cafe">
+            </div>
             <div class="prices">
                 <ul id="coffees_names">
                     <li>French Vanilla</li>
@@ -35,8 +37,10 @@
             </div>
         </div>
         <div id="desserts">
-            <h2>Desserts</h2>
-            <img src="imgs/icon_pie.png" alt="icone_torta">
+            <div class="flexme">
+                <h2>Desserts</h2>
+                <img src="imgs/icon_pie.png" alt="icone_torta">
+            </div>
             <div class="prices">
                 <ul id="desserts_names">
                     <li>Donut</li>
@@ -53,7 +57,7 @@
             </div>
         </div>
         <hr>
-        <footer>
+        <footer class="flexme">
             <p><a href="index.html">Visite our website</a></p>
             <p>123 Free Code Camp Drive</p>
         </footer>
